@@ -9,6 +9,7 @@ app.get("/", function(req, res){
 
 
 })
+app.use(express.static(__dirname + '/public'));
 
 const port = process.env.PORT || 5050;
 
